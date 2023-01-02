@@ -1,0 +1,80 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+
+body {
+  background-color:rgb(239, 255, 253);
+  font-family:"Poppins", sans-serif;
+  color:rgb(00,00,00);
+  line-height: normal;
+}
+
+h1,h2,h3 {
+  color:rgb(00,00,00);
+  font-family:"Poppins", sans-serif;
+}
+
+h1 {
+  font-size:25px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size:16px;
+}
+
+h3 {
+  font-size:12px;
+}
+
+a {
+  font-family:"poppins", sans-serif;
+  text-decoration:none;
+  color:C0DEFF;
+  font-weight:400;
+  font-size: small;
+}
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 0.2);
+  text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 50px;
+  margin: 20px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
